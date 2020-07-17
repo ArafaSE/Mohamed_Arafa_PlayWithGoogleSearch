@@ -8,3 +8,4 @@ Technologies used in this project:
 4. Cucumber for BDD (Behavior driven developmnt).
 5. supported browsers (Chrome, Firefox), you can select to run your test with anyone of them from 'browser' parameter in the TestBase.java Calss
 6. Support headless testing (Run test cases without UI) you can enable this feature by change browser paramater in the TestBase.java Calss from "chrome" -> "chrome-headless"
+7. If you want to see test output results open targets-> cucumber-html-report.html in you browser.
