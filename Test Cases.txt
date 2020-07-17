@@ -1,0 +1,38 @@
+project: Play with testing google search
+Author: Mohamed Arafa
+
+
+#Features to be tested: 
+
+A. Google Suggestion Search
+	Test Cases:
+		1. Verify that when user start typing word in text box it should suggest words that matches typed keyword
+			1.1 User can access google search page 
+			1.2 User entered search "<keyword>" in the search input field
+			1.3 Suggested results returned matches typed "<keyword>"
+
+		2. Verify that user can make search using different languages
+			2.1 User can access google search page
+			2.2 User entered search "<keyword>" in the search input field
+			2.3 Suggested results returned matches typed "<keyword>"
+
+		3. Verify that If the user entered nothing and just click search the nothing should occur
+			3.1 User can access google search page
+			3.2 User click search without enter any search keyword
+			3.1 Check that nothing was happened and user still in the search page
+
+		4. Verify that user can open the first suggested result link
+			4.1 User can access google search page
+			4.2 User entered search "<keyword>" in the search input field
+			4.3 Suggested results returned with values
+			4.4 User click on the first suggestion link
+			4.5 User redirected to search results page
+
+B. Google Returned Search Results
+	Test cases:
+		5. Verify that the first result returned is matching the search keyword
+			5.1 User can access google search page
+			5.2 User entered search "<keyword>" in the search input field
+			5.3 User submit search
+			5.4 User redirected to search results page
+			5.5 The first result is matching the search "<keyword>"
